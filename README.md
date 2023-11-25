@@ -3,6 +3,9 @@ voice2text nginx &amp; flask service based on WhisperForConditional and chatgpt 
 
 based on [[1]](#1) by Valerio Velardo.
 
+## Description
+Convert audio to text by calling this service. Ability to paraphrase the transcribed text using chatgpt paraphraser. 
+
 ## Transformers
 1. [Whiper](https://huggingface.co/docs/transformers/model_doc/whisper)
 2. [ChatGPT paraphraser](https://huggingface.co/humarin/chatgpt_paraphraser_on_T5_base)
