@@ -8,9 +8,11 @@ WORKDIR /app
 ADD . /app
 
 # Install audio libraries
+RUN apt-get clean
 RUN apt-get update && apt-get install -y libsndfile1 libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg
 
 # Install python packages
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Start uWSGI using config file
