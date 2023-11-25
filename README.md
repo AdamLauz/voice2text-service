@@ -3,6 +3,10 @@ voice2text nginx &amp; flask service based on WhisperForConditional and chatgpt 
 
 based on [[1]](#1) by Valerio Velardo.
 
+## Transformers
+1. [Whiper](https://huggingface.co/docs/transformers/model_doc/whisper)
+2. [ChatGPT paraphrase](https://huggingface.co/humarin/chatgpt_paraphraser_on_T5_base)
+
 ## References
 <a id="1">[1]</a>
 Valerio Velardo.
