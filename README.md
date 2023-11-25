@@ -1,5 +1,5 @@
 # voice2text-service
-voice2text nginx &amp; flask service based on WhisperForConditional and chatgpt paraphraser transformers.
+voice2text nginx &amp; flask service based on Whiper and ChatGPT paraphraser transformers.
 
 based on [[1]](#1) by Valerio Velardo.
 
