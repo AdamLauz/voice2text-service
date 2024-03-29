@@ -37,7 +37,7 @@ class _Voice2TextService:
 
         # use paraphrasing
         if use_paraphrasing:
-            transcription = (f"paraphrase: {transcription[0]}")
+            transcription = self.paraphraser(transcription)[0]
 
         return transcription
 
@@ -80,5 +80,6 @@ if __name__ == "__main__":
     assert voice2text is voice2text_2
 
     # make prediction
-    transcription = voice2text.predict("../resources/down.wav")
+    transcription = voice2text.predict("../resources/People living in town don't know the pleasures of country life.mp3",
+                                       use_paraphrasing=True)
     print(transcription)
