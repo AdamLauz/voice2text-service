@@ -8,32 +8,35 @@ based on [[1]](#1) by Valerio Velardo.
 
 ## Project Structure
 
+```css
 voice2text/
 │
 ├── flask/
-│ ├── paraphraser.h5/
-│ ├── processor.h5/
-│ ├── voice2text.h5/
-│ ├── app.ini
-│ ├── Dockerfile
-│ ├── requirements.txt
-│ ├── server.py
-│ ├── voice2text_service.py
-│
+│   ├── paraphraser.h5/
+│   ├── processor.h5/
+│   ├── voice2text.h5/
+│   ├── app.ini
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── server.py
+│   ├── voice2text_service.py
+│   
 ├── model/
-│ ├── model.py
-│
+│   ├── model.py
+│   
 ├── nginx/
-│ ├── Dockerfile
-│ ├── nginx.conf
-│
+│   ├── Dockerfile
+│   ├── nginx.conf
+│   
 ├── resources/
-│ ├── down.wav
-│ ├── I had some free time, so I wandered around town.mp3
-│ ├── People living in town don't know the pleasures of country life.mp3
-│
+│   ├── down.wav
+│   ├── I had some free time, so I wandered around town.mp3
+│   ├── People living in town don't know the pleasures of country life.mp3
+│   
 ├── client.py
 └── docker-compose.yml
+```
+
 
 
 ## Description
