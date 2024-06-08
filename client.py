@@ -1,7 +1,7 @@
 import requests
 
 URL = "http://127.0.0.1/predict"
-TEST_AUDIO_FILE_PATH = "resources/left.wav"
+TEST_AUDIO_FILE_PATH = "resources/down.wav"
 
 if __name__ == "__main__":
 
